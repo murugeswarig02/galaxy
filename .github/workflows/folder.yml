@@ -2,6 +2,7 @@ name: Folder Workflow
 
 on:
   push:
+    branches: [ main ]
     paths:
       - 'src/**'
 
