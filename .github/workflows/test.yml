@@ -3,7 +3,7 @@ name: Folder Workflow
 on:
   push:
     paths:
-      - 'src/'
+      'src/**'
 
 jobs:
   build:
